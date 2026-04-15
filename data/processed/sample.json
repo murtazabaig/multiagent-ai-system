@@ -1,0 +1,22 @@
+[
+  {
+    "query": "What is the capital of France?",
+    "answer": "Paris",
+    "subtasks": ["Retrieve relevant documents", "Reason over context", "Generate final answer"],
+    "context_docs": [
+      "France is a country in Europe. Its capital is Paris.",
+      "Paris is the largest city in France and its capital."
+    ],
+    "ground_truth": "Paris"
+  },
+  {
+    "query": "Who wrote Hamlet?",
+    "answer": "William Shakespeare",
+    "subtasks": ["Retrieve relevant documents", "Reason over context", "Generate final answer"],
+    "context_docs": [
+      "Hamlet is a tragedy written by William Shakespeare.",
+      "Shakespeare is known for writing Hamlet."
+    ],
+    "ground_truth": "William Shakespeare"
+  }
+]

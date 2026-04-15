@@ -1,0 +1,7 @@
+{
+  "query": "string",
+  "answer": "string",
+  "subtasks": ["string"],
+  "context_docs": ["string"],
+  "ground_truth": "string"
+}
