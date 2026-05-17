@@ -36,8 +36,10 @@ class PlannerOutput(BaseModel):
 
 def validate_planner_output(output: dict) -> bool:
     try:
+        if not isinstance(output, dict):
+            return False
         PlannerOutput(**output)
         return True
-    except ValidationError as e:
+    except (ValidationError, TypeError) as e:
         print(f"Planner output validation error: {e}")
         return False

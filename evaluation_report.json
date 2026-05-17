@@ -1,0 +1,315 @@
+{
+    "final_metrics": {
+        "rouge1": 0.1552280485278064,
+        "rougeL": 0.1552280485278064,
+        "bleu": 0.017033893079252335,
+        "accuracy": 0.13333333333333333,
+        "precision": 0.06999514780216536,
+        "recall": 0.25,
+        "f1": 0.09294616151545364,
+        "mrr": 0.3266666666666667,
+        "recall_at_k": 0.6
+    },
+    "detailed_logs": [
+        {
+            "question": "When did Beyonce start becoming popular?",
+            "ground_truth": "in the late 1990s",
+            "ai_prediction": "Beyonce began becoming popular in the late 1980s and early 1990s.",
+            "generation": {
+                "rouge1": 0.5333,
+                "rougeL": 0.5333,
+                "bleu": 0.1161
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.2727,
+                "recall": 0.75,
+                "f1": 0.4
+            },
+            "retrieval": {
+                "mrr": 0.0,
+                "recall_at_k": 0.0
+            }
+        },
+        {
+            "question": "What areas did Beyonce compete in when she was growing up?",
+            "ground_truth": "singing and dancing",
+            "ai_prediction": "Beyonc\u00e9 Giselle Knowles was born in Houston, Texas, to Celestine Ann \"Tina\" Knowles (n\u00e9e Beyinc\u00e9), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager.",
+            "generation": {
+                "rouge1": 0.0645,
+                "rougeL": 0.0645,
+                "bleu": 0.0102
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.037,
+                "recall": 0.3333,
+                "f1": 0.0667
+            },
+            "retrieval": {
+                "mrr": 0.0,
+                "recall_at_k": 0.0
+            }
+        },
+        {
+            "question": "When did Beyonce leave Destiny's Child and become a solo singer?",
+            "ground_truth": "2003",
+            "ai_prediction": "Destiny's Child disbanded following the North American leg of their tour.",
+            "generation": {
+                "rouge1": 0.0,
+                "rougeL": 0.0,
+                "bleu": 0
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "retrieval": {
+                "mrr": 1.0,
+                "recall_at_k": 1.0
+            }
+        },
+        {
+            "question": "In what city and state did Beyonce  grow up? ",
+            "ground_truth": "Houston, Texas",
+            "ai_prediction": "Houston, Texas.",
+            "generation": {
+                "rouge1": 1.0,
+                "rougeL": 1.0,
+                "bleu": 0.0675
+            },
+            "classification": {
+                "accuracy": 1.0,
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1": 0.5
+            },
+            "retrieval": {
+                "mrr": 1.0,
+                "recall_at_k": 1.0
+            }
+        },
+        {
+            "question": "In which decade did Beyonce become famous?",
+            "ground_truth": "late 1990s",
+            "ai_prediction": "The decade that Beyonce became famous was the decade that she became famous as a singer.",
+            "generation": {
+                "rouge1": 0.0,
+                "rougeL": 0.0,
+                "bleu": 0
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "retrieval": {
+                "mrr": 0.0,
+                "recall_at_k": 0.0
+            }
+        },
+        {
+            "question": "In what R&B group was she the lead singer?",
+            "ground_truth": "Destiny's Child",
+            "ai_prediction": "Girl's Tyme was a group of girls who performed in the 1980s.",
+            "generation": {
+                "rouge1": 0.125,
+                "rougeL": 0.125,
+                "bleu": 0
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "retrieval": {
+                "mrr": 0.3333,
+                "recall_at_k": 1.0
+            }
+        },
+        {
+            "question": "What album made her a worldwide known artist?",
+            "ground_truth": "Dangerously in Love",
+            "ai_prediction": "Destiny's Child is a song by American singer Beyonc\u00e9.",
+            "generation": {
+                "rouge1": 0.0,
+                "rougeL": 0.0,
+                "bleu": 0
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "retrieval": {
+                "mrr": 0.0,
+                "recall_at_k": 0.0
+            }
+        },
+        {
+            "question": "Who managed the Destiny's Child group?",
+            "ground_truth": "Mathew Knowles",
+            "ai_prediction": "Rowland was the manager of Destiny's Child.",
+            "generation": {
+                "rouge1": 0.0,
+                "rougeL": 0.0,
+                "bleu": 0
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "retrieval": {
+                "mrr": 0.5,
+                "recall_at_k": 1.0
+            }
+        },
+        {
+            "question": "When did Beyonc\u00e9 rise to fame?",
+            "ground_truth": "late 1990s",
+            "ai_prediction": "Beyonc\u00e9 was a singer and songwriter from the late 1980s to the early 1990s.",
+            "generation": {
+                "rouge1": 0.25,
+                "rougeL": 0.25,
+                "bleu": 0.0176
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.0714,
+                "recall": 0.5,
+                "f1": 0.125
+            },
+            "retrieval": {
+                "mrr": 0.0,
+                "recall_at_k": 0.0
+            }
+        },
+        {
+            "question": "What role did Beyonc\u00e9 have in Destiny's Child?",
+            "ground_truth": "lead singer",
+            "ai_prediction": "Beyonc\u00e9's younger sister Solange is also a singer and a former member of Destiny's Child.",
+            "generation": {
+                "rouge1": 0.1053,
+                "rougeL": 0.1053,
+                "bleu": 0.0166
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.0667,
+                "recall": 0.5,
+                "f1": 0.1176
+            },
+            "retrieval": {
+                "mrr": 0.2,
+                "recall_at_k": 1.0
+            }
+        },
+        {
+            "question": "What was the first album Beyonc\u00e9 released as a solo artist?",
+            "ground_truth": "Dangerously in Love",
+            "ai_prediction": "Beyonc\u00e9 unexpectedly released her fifth studio album on the iTunes Store without any prior announcement or promotion. The album debuted atop the Billboard 200 chart, giving Beyonce her fifth consecutive number-one album in the US. This made her the first woman in the chart's history to have her first five studio albums debut at number one.",
+            "generation": {
+                "rouge1": 0.0328,
+                "rougeL": 0.0328,
+                "bleu": 0.0055
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.0179,
+                "recall": 0.3333,
+                "f1": 0.0339
+            },
+            "retrieval": {
+                "mrr": 0.3333,
+                "recall_at_k": 1.0
+            }
+        },
+        {
+            "question": "When did Beyonc\u00e9 release Dangerously in Love?",
+            "ground_truth": "2003",
+            "ai_prediction": "Her first solo album Dangerously in Love was released on June 24, 2003, after Michelle Williams and Kelly Rowland had released their solo efforts.",
+            "generation": {
+                "rouge1": 0.08,
+                "rougeL": 0.08,
+                "bleu": 0
+            },
+            "classification": {
+                "accuracy": 1.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "retrieval": {
+                "mrr": 1.0,
+                "recall_at_k": 1.0
+            }
+        },
+        {
+            "question": "How many Grammy awards did Beyonc\u00e9 win for her first solo album?",
+            "ground_truth": "five",
+            "ai_prediction": "Beyonc\u00e9 has won 20 Grammy Awards, both as a solo artist and member of Destiny's Child, making her the second most honored female artist by the Grammys, behind Alison Krauss and the most nominated woman in Grammy Award history with 52 nominations.",
+            "generation": {
+                "rouge1": 0.0,
+                "rougeL": 0.0,
+                "bleu": 0
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "retrieval": {
+                "mrr": 0.0,
+                "recall_at_k": 0.0
+            }
+        },
+        {
+            "question": "What was Beyonc\u00e9's role in Destiny's Child?",
+            "ground_truth": "lead singer",
+            "ai_prediction": "Beyonc\u00e9's younger sister Solange is also a singer and a former member of Destiny's Child.",
+            "generation": {
+                "rouge1": 0.1053,
+                "rougeL": 0.1053,
+                "bleu": 0.0166
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.0667,
+                "recall": 0.5,
+                "f1": 0.1176
+            },
+            "retrieval": {
+                "mrr": 0.2,
+                "recall_at_k": 1.0
+            }
+        },
+        {
+            "question": "What was the name of Beyonc\u00e9's first solo album?",
+            "ground_truth": "Dangerously in Love",
+            "ai_prediction": "Beyonc\u00e9 unexpectedly released her eponymous fifth studio album on the iTunes Store without any prior announcement or promotion. The album debuted atop the Billboard 200 chart, giving Beyonce her fifth consecutive number-one album in the US. This made her the first woman in the chart's history to have her first five studio albums debut at number one.",
+            "generation": {
+                "rouge1": 0.0323,
+                "rougeL": 0.0323,
+                "bleu": 0.0054
+            },
+            "classification": {
+                "accuracy": 0.0,
+                "precision": 0.0175,
+                "recall": 0.3333,
+                "f1": 0.0333
+            },
+            "retrieval": {
+                "mrr": 0.3333,
+                "recall_at_k": 1.0
+            }
+        }
+    ]
+}

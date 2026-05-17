@@ -3,5 +3,5 @@ seed: 42
 embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
 chunk_size: 256
 top_k: 5
-dataset_path: "data/processed/sample.json"
+dataset_path: "data/processed/squad_contexts.json"
 output_path: "outputs/"

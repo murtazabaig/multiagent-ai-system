@@ -4,3 +4,8 @@ __pycache__/
 *.pkl
 *.pt
 outputs/
+.venv/
+.streamlit/
+data/
+train-v2.0.json
+*.docx
